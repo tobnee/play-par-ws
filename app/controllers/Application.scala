@@ -1,15 +1,11 @@
 package controllers
 
-import _root_.cache.ParWs
+import _root_.parws.ParWs
 import play.api.mvc._
 import scala.concurrent.ExecutionContext
 import ExecutionContext.Implicits.global
 
 object Application extends Controller {
-
-  def index = Action {
-    Ok(views.html.index("Your new application is ready."))
-  }
 
   def search(term: String) = Action {
     Async {

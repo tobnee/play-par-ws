@@ -3,8 +3,6 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index
-
 GET     /search/:q                  controllers.Application.search(q)
 
 # Map static resources from the /public folder to the /assets URL path

@@ -1,4 +1,4 @@
-package cache
+package parws
 
 import play.api.cache.Cache
 import scala.concurrent.{ExecutionContext, Future}

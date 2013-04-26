@@ -4,7 +4,7 @@ import PlayProject._
 
 object ApplicationBuild extends Build {
 
-    val appName         = "cache"
+    val appName         = "parws"
     val appVersion      = "0.1"
 	
     val appDependencies = Nil
